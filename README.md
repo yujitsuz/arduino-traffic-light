@@ -37,7 +37,7 @@ Edge detection is used so the button only registers once per physical press, reg
 
 ## Wiring
 
-![Circuit diagram](<img width="1098" height="768" alt="Captura de tela 2026-04-05 034339" src="https://github.com/user-attachments/assets/86ec6afb-9a6d-4594-a7ab-0ebe6adde8ee" />)
+![Circuit diagram](assets/Circuit.png)
 
 
 The main traffic light uses pins 3 (red), 4 (yellow), and 5 (green). The secondary traffic light uses pins 6 (red), 7 (yellow), and 8 (green). The pedestrian button is connected to pin 2, with a 10kΩ pull-down resistor to GND and the opposite leg connected to 5V. This ensures the pin reads LOW by default and only goes HIGH when the button is physically pressed.
